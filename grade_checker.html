@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>grade checker</title>
+    </head>
+    <body>
+        <h2>Grade Checker</h2>
+        <label>Enter a number:</label>
+        <input type="text" id="percentageinput">
+        <button onclick="checkgrade()">check</button>
+    </body>
+    <script>
+        function checkgrade(){
+            var userinput=document.getElementById("percentageinput").value;
+            if(isNuN(userinput)){
+                alert("Please enter vaild number.");
+            }
+        }
+    </script>
+</html>
